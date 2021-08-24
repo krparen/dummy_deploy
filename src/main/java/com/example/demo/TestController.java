@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping
     public String testEndpoint() {
-        return "VERY OLD Hello from test service!";
+        return "UPDATED Hello from test service!";
     }
 }
